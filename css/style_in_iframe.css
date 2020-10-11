@@ -1,0 +1,105 @@
+/*Estilo general*/
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Regular.ttf');
+}
+
+body {
+    color: #d9caca;
+    text-align: center;
+    background-color: #302c2c;
+    font-family: 'Raleway';
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #d9caca; 
+}
+
+/*Estilo partes*/
+.listas_partes {
+    float: left;
+    text-align: left;
+}
+
+.partes div {
+    display: none;
+}
+
+.partes div:target {
+    display: block;
+}
+
+.all_partes img {
+    height: 200px;
+    width: auto;
+}
+
+.all_partes table {
+    margin-left: 35%;
+    margin-right: 10%;
+}
+
+.argumento {
+    margin-left: 23%;
+    margin-right: 7%;
+}
+
+/*Estilo de habilidades*/
+.habilidades div {
+    display: none;
+}
+
+.habilidades div:target {
+    display: block;
+}
+
+.all_habilidades {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.all_habilidades ul {
+    text-align: left;
+    margin-left: 28%;
+}
+
+/*Estilo de videojuegos*/
+.videojuegos {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.videojuegos img {
+    height: 200px;
+    width: auto;
+}
+
+/*Estilo de información del autor*/
+.hiroiko {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.curiosidades {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+/*Estilo de biografia*/
+.fuentes {
+    text-align: left;
+    margin-left: 39%;
+}
+
+/*Estilo de sugerencias*/
+.field1 {
+    float: left;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.field2 {
+    float: right;
+    margin-right: 15%;
+}
